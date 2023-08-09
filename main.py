@@ -1,11 +1,15 @@
-print()
-
 from PIL import Image
 import numpy as np
 
-threshold = 25
+print("Loading program...")
 
-def check_image(img, i):
+threshold = 25
+framesAmount = 100
+
+count = 0
+
+
+def check_image(img, index):
     ary = np.array(img)
 
     # Split the three channels
@@ -18,11 +22,19 @@ def check_image(img, i):
     bitmap = list(map(lambda x: 0.299 * x[0] + 0.587 * x[1] + 0.114 * x[2],
                       zip(r, g, b)))
     for x in bitmap:
-      if(x > threshold):
-        print("PIXELLLL: " + str(x) + " - "+ str(i))
-    #bitmap = np.array(bitmap).reshape([ary.shape[0], ary.shape[1]])
-    #bitmap = np.dot((bitmap > 128).astype(float), 255)
+        if x > threshold:
+            print("Found pixel above threshold: " + str(x) + " - " + index)
+            global count
+            count += 1
+    # bitmap = np.array(bitmap).reshape([ary.shape[0], ary.shape[1]])
+    # bitmap = np.dot((bitmap > 128).astype(float), 255)
 
 
-for i in range(46, 47):
-    check_image(Image.open("frames1/frame" + str(i) + ".png"), i)
+for i in range(0, framesAmount):
+    index = str(i)
+    print("Loading image " + index + "...")
+    img = Image.open("frames1/frame" + index + ".png")
+    print("Analzying image " + index + "...")
+    check_image(img, index)
+
+print("Finished! Pixels above threshold found: " + str(count))
