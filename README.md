@@ -23,4 +23,4 @@ For the best results, the video should be saved in RAW format.
 More information about this concept:<br>
 [https://www.sciencedirect.com/science/article/pii/S0141933120303306](https://www.sciencedirect.com/science/article/pii/S0141933120303306)<br>
 [https://britastro.org/2023/capturing-cosmic-rays-with-a-digital-camera](https://britastro.org/2023/capturing-cosmic-rays-with-a-digital-camera)<br>
-[http://cosmicpi.org/](http://cosmicpi.org/)
+[http://cosmicpi.org/posts](http://cosmicpi.org/posts)
