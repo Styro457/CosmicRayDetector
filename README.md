@@ -2,7 +2,7 @@
 
 This program was initially created for the [Qube2Space](https://students.2space.ro/qube2space) contest. 
 
-It **analyzes the frames of a video** taken with a **blacked out camera** and detects cosmic rays that hit the sensor.
+It **analyzes the frames of a video** taken with a **blacked out CMOS camera sensor** and detects cosmic rays that hit the sensor.
 
 <img src="https://i.imgur.com/Ud9AOdp.png" width=30% height="auto">
 
