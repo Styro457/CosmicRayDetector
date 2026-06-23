@@ -26,3 +26,10 @@ More information about this concept and inspiration sources:<br>
 [https://www.sciencedirect.com/science/article/pii/S0141933120303306](https://www.sciencedirect.com/science/article/pii/S0141933120303306)<br>
 [https://britastro.org/2023/capturing-cosmic-rays-with-a-digital-camera](https://britastro.org/2023/capturing-cosmic-rays-with-a-digital-camera)<br>
 [http://cosmicpi.org/posts](http://cosmicpi.org/posts)
+
+---
+
+<details>
+  <summary>Alternative implementation</summary>
+  <img src="https://i.redd.it/t8tjfpk2jf791.png", width=500px>
+</details>
