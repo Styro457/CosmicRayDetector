@@ -29,7 +29,15 @@ More information about this concept and inspiration sources:<br>
 
 ---
 
+
+
 <details>
   <summary>Alternative implementation</summary>
-  <img src="https://i.redd.it/t8tjfpk2jf791.png", width=500px>
+
+  ```py
+  def cosmic_ray_detector():
+    while True:
+      if False:
+        print("Cosmic ray detected")
+  ```
 </details>
